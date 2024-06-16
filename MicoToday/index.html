@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MicoToday</title>
+  <!-- /META/ -->
+
+  <!-- LINKS -->
+  <link rel="shortcut icon" href="pictures/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/8ceba41633.js" crossorigin="anonymous"></script>
+  <!-- /LINKS/ -->
+</head>
+
+<body>
+  <div id="app">
+    <h1 id="title"></h1>
+    <div class="countdown-container">
+      <div class="countdown-e days-c">
+        <p class="big-text" id="days">0</p>
+        <span>Days</span>
+      </div>
+      <div class="countdown-e hours-c">
+        <p class="big-text" id="hours">0</p>
+        <span>Hours</span>
+      </div>
+      <div class="countdown-e minutes-c">
+        <p class="big-text" id="minutes">0</p>
+        <span>Minutes</span>
+      </div>
+      <div class="countdown-e seconds-c">
+        <p class="big-text" id="seconds">0</p>
+        <span>Seconds</span>
+      </div>
+    </div>
+
+    <div id="sharePannelsBoth">
+
+      <div id="sharePannel">
+        <a
+          href="https://twitter.com/share?url=<Hello.. visit this amazing website https://microworld-micowebsites.on.drv.tw/MicoToday/>&text=<TEXT>via=<USERNAME>"><i
+            class="fa-brands fa-x-twitter"></i></a>
+        <a
+          href="https://www.facebook.com/sharer/sharer.php?u=<Hello.. visit this amazing website https://microworld-micowebsites.on.drv.tw/MicoToday/>"><i
+            class="fa-brands fa-facebook"></i></a>
+        <a
+          href="https://reddit.com/submit?url=<Hello.. visit this amazing website https://microworld-micowebsites.on.drv.tw/MicoToday/>&title=<TITLE>"><i
+            class="fa-brands fa-reddit"></i></a>
+        <a
+          href="https://www.linkedin.com/shareArticle?url=<Hello.. visit this amazing website https://microworld-micowebsites.on.drv.tw/MicoToday/>&title=<TITLE>&summary=<SUMMARY>&source=<Hello.. visit this amazing https://microworld-micowebsites.on.drv.tw/MicoToday/>"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a
+          href="mailto:?subject=<SUBJECT>&body=<Hello... visit this amazing website https://microworld-micowebsites.on.drv.tw/MicoToday/>"><i
+            class="fa-solid fa-envelope"></i></a>
+        <a
+          href="whatsapp://send?text=Hello... visit this amazing website https://microworld-micowebsites.on.drv.tw/MicoToday/"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <i class="fa-solid fa-circle-xmark"  onclick="closeSharePannel()"></i>
+      </div>
+
+      <div id="shareBtn" onclick="openSharePannel()">
+        <p onclick="openSharePannel()">Share<i class="fa-solid fa-arrow-up-from-bracket"></i></p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h3 id="mico">MicoToday</h3>
+
+  </footer>
+</body>
+
+</html>

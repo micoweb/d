@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: url('pictures/pic3.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  user-select: none;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#mico{
+  font-size: 2rem;
+  color: rgb(238, 238, 238);
+  float: right;
+  display: block;
+  margin: 0 20px 10px 0;
+}
+
+#title{
+  font-size: 3rem;
+  margin-top: 5rem;
+  color: rgb(255, 248, 248);
+}
+
+.countdown-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background: rgba(146, 145, 145, 0.308);
+  border-radius: 26px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 0 4px 60px rgba(0, 0, 0, 0.63);
+  backdrop-filter: blur(3px);
+  padding: 20px; 
+  margin: 10px;
+}
+
+.big-text{
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1.2rem .5rem;
+  width: 190px;
+}
+
+.countdown-e{
+  text-align: center;
+  
+}
+
+.countdown-e span{
+  font-size: 1.3rem;
+  margin: 0rem 0rem 5rem 0rem;
+}
+
+#sharePannel{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px; 
+  margin: 10px;
+  font-size: 40px;
+  transition: 1s;
+  display: none;
+}
+
+i{
+  margin: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.fa-brands.fa-x-twitter{
+  color: black;
+}
+.fa-brands.fa-facebook{
+  color: blue;
+}
+.fa-brands.fa-reddit{
+  color: orangered;
+}
+.fa-brands.fa-linkedin{
+ color: blue;
+}
+.fa-solid.fa-envelope{
+  color: brown;
+}
+.fa-brands.fa-whatsapp{
+  color: green;
+}
+.fa-solid.fa-circle-xmark{
+  color: rgba(255, 0, 0, 0.274);
+  background: none;
+  box-shadow: none;
+  margin: -20px -40px 0px 10px;
+  padding: 0;
+  border-radius: none;
+  float: right;
+  font-size: 29px;
+  top: 0;
+  background: rgba(255, 255, 255, 0.253);
+  text-align: center;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.fa-solid.fa-circle-xmark:hover{
+  transform: rotate(160deg);
+  transition: .5s;
+  background: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+}
+
+p{
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fa-solid.fa-arrow-up-from-bracket{
+  background: none;
+  margin: 0;
+}
+
+i:hover{
+  position: relative;
+  top: -3px;
+  transition: .5s;
+  box-shadow: 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#sharePannelsBoth{
+  color: rgb(0, 0, 0);
+  background: rgba(146, 145, 145, 0.308);
+  border-radius: 26px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 0 4px 60px rgba(0, 0, 0, 0.63);
+  backdrop-filter: blur(3px);
+  padding: 0px 20px 0px 20px; 
+  margin: 10px;
+  transition: 1s;
+}
